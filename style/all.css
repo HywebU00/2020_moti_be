@@ -7964,6 +7964,8 @@ thead .bg-light {
       .navbar-light .navbar-nav a.nav-link {
         background: #4e385d;
         padding: 0.8rem 1rem; } }
+    .navbar-light .navbar-nav a.nav-link:hover {
+      color: #d8c1ca; }
 
 .phone-title {
   display: none;
