@@ -41,7 +41,7 @@ $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 //newadd
-$dark-brown:#4e385d !default;
+$dark-brown:#56386b !default;
 $light-brown:#9f839c; //#d88d8b !default;
 $ivory:#eee !default;
 $light-ivory: #fbf4ec;
@@ -64,7 +64,7 @@ $colors: map-merge(("blue": $blue,
   ),
 $colors);
 
-$primary: #4e385d; //$blue !default;
+$primary: #56386b; //$blue !default;
 $secondary: #ce6476; //$gray-400;//$light-brown;//$gray-600 !default;
 $success: $green !default;
 $info: $gray-500; //$cyan !default;

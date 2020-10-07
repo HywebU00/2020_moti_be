@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/all.css" />
+  <title>3-1.案件進度查詢-查詢功能頁</title>
+</head>
+<body>
+  <header></header>
+  <nav class="sticky-top navbar navbar-expand-lg navbar-light justify-content-center"></nav>
+  
+  <div class="container pt-5 pb-5">
+    <h2 class="title text-primary">案件進度查詢 - 查詢</h2>
+    <form action="">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card shadow-sm bg-light">
+            <div class="card-body card-table">
+              <div class="form-style">
+                <div class="row">
+                  <label class="form-title col-sm-3" for="">全國性內政財團法人名稱</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="form-title col-sm-3" for="">申請辦理狀態</label>
+                  <div class="col-sm-9 d-flex">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" value="option1" checked="">
+                      <label class="form-check-label" for="gridRadios1">全部</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" value="option3">
+                      <label class="form-check-label" for="gridRadios2">審查中</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" value="option3">
+                      <label class="form-check-label" for="gridRadios2">退補件中</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" value="option3">
+                      <label class="form-check-label" for="gridRadios2">同意備查</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" value="option3">
+                      <label class="form-check-label" for="gridRadios2">不予受理</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="form-title col-sm-3" for="">備查資料類別</label>
+                  <div class="col-sm-9">
+                    <select name="" id="" class="form-control">
+                      <option value="">工作計畫及經費預算</option>
+                      <option value="">工作報告及財務報表</option>
+                      <option value="">接受補助、捐贈清單名冊</option>
+                      <option value="">支付補助、捐贈清單名冊</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="form-title col-sm-3" for="">備查年度</label>
+                  <div class="col-sm-9">
+                    <select name="" id="" class="form-control">
+                      <option value="">109</option>
+                      <option value="">108</option>
+                      <option value="">107</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="form-title col-sm-3" for="">備查送件號碼</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="row">
+                  <label for="" class="form-title col-sm-3">備查申請日期</label>
+                  <div class="col-sm-9 d-flex">
+                    <input type="date" class="form-control"><label for="" class="form-title mr-1 ml-1">~</label><input type="date" class="form-control">
+                  </div>
+                </div>
+                <div class="row">
+                  <label for="" class="form-title col-sm-3">備查核定日期</label>
+                  <div class="col-sm-9 d-flex">
+                    <input type="date" class="form-control"><label for="" class="form-title mr-1 ml-1">~</label><input type="date" class="form-control">
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="form-title col-sm-3" for="">送件人姓名</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="form-title col-sm-3" for="">審核人員員編</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="info text-danger">
+            說明：
+            <ol>
+              <li>[全國性內政財團法人名稱] 、 [申請辦理狀態 ]及 [備查資料類別] 查詢條件至少需擇一輸入。</li>
+              <li>[備查年度 ]、[備查送件號碼 ]、[備查申請日期 ]、[備查核定日期 ]、[送件人姓名 ]及[審核人員員編 ]查詢條件至少需擇一輸入。</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="bbtn">
+        <buton class="btn btn-info">清除</buton>
+        <buton class="btn btn-primary">查詢</buton>
+      </div>
+    </form>
+  </div>
+  <footer class="bg-primary footer-bg p-4"></footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script>
+    $(function(){
+      $("header").load("header.html");
+      $("nav.navbar").load("nav.html");
+      $("footer").load("footer.html");
+    });
+  </script>
+
+</body>
+
+</html>
