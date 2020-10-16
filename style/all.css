@@ -8505,7 +8505,8 @@ h2.title {
   .comparison-bg .form-style .form-border {
     padding: .8rem 0; }
   .comparison-bg .form-style .form-title {
-    justify-content: flex-start; }
+    justify-content: flex-start;
+    text-align: left; }
     .comparison-bg .form-style .form-title ~ div:before {
       display: none; }
   .comparison-bg .form-style .upload {

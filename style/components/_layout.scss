@@ -949,6 +949,7 @@ h2.title {
     }
     .form-title{
       justify-content: flex-start;
+      text-align: left;
       &~div:before{
         display: none;
       }
