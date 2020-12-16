@@ -966,3 +966,27 @@ h2.title {
 
   }
 }
+.address{
+  p{
+    text-align: center;
+  }
+  .addresspic{
+    text-align: center;
+    margin-bottom: 2em;
+    img{
+      border: 3px solid #d8c1ca;
+    }
+  }
+  .addressinfo{
+    width: 650px;
+    margin: 0 auto;
+    h5 {
+      padding-bottom: 5px;
+      border-bottom: 3px solid #ddd;
+      text-align: center;
+    }
+    ol li {
+      margin-bottom: 5px;
+    }
+  }
+}
